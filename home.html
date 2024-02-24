@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>White</title>
+    
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css_files/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../css_files/home.css">
+    <link rel="stylesheet" type="text/css" href="../css_files/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  
+    <style>
+        
+        :root {
+            --main-bg-color: #fff;
+            --main-text-color: #000;
+        }
+
+          
+           .theme-toggle {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 24px;
+            color: #fdfafa;
+            cursor: pointer;
+            transition: transform 0.3s ease, color 0.3s ease; 
+        }
+
+       
+        .theme-toggle.rotate {
+            transform: rotate(180deg); 
+        }
+
+        .theme-toggle.rotate.active {
+            color: #333; 
+        }
+
+
+
+        .navbar {
+            position: relative;
+        }
+
+        .navbar {
+            position: relative;
+        }
+
+        .navbar-icon {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            border-radius: 50%;
+            background-color: #333;
+            padding: 8px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        body {
+            background-color: var(--main-bg-color);
+            color: var(--main-text-color);
+        }
+
+        .white-text {
+            color: #000; 
+        }
+
+      
+        [data-theme='dark'] {
+            --main-bg-color: #000;
+            --main-text-color: #fff;
+        }
+
+     
+        [data-theme='dark'] .white-text {
+            color: #fff !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        
+        <i class="fas fa-toggle-on theme-toggle" id="theme-toggle"></i>
+        <ul>
+            <li>
+                <a href=" " style="color: #FFC700;">HOME</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT </a>
+            </li>
+            <li>
+                <a href="youtube.html">YOUTUBE LINKS</a>
+            </li>
+            <li>
+                <a href="gallery.html">GALLERY</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="grid-container">
+        <div class="images-container">
+            <div class="name">
+                <p id="para">
+                    <span class="yellow-text">Koushik</span>
+                    <span style="color: rgb(9, 9, 9);">Aithal</span>
+                </p>
+            </div>
+            <div class="image1">
+                <img src="../image_files/white.png" alt="image1">
+            </div>
+        </div>
+    </div>
+
+    <div class="type">
+        <p id="paratwo" class="white-text">
+            Koushik Aithal is a professional playback <span class="yellow-text">singer and vocalist.</span> He is a very prominent Hindustani vocalist who is based in <span class="yellow-text">Bengaluru, Karnataka.</span> He was trained in music by <span class="yellow-text">Pandit Parameshwar Hedge of Kirana Gharana.</span> Koushik Aithal is specialized in <span class="yellow-text">Hindustani classical music.<a href="About.html" class="read-more">Read more</a></span>
+        </p>
+    </div>
+
+    <div>
+        <p id="heading">
+            <span class="yellow-text">Youtube</span>
+            <span class="white-text">Videos</span>
+        </p>
+    </div>
+
+    <div class="youtube">
+        <div class="video-container">
+            <div class="grid1">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qgq4Qm3v_U8?si=7SNG4P_DsJfhVYKa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="grid2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9ZkkoSuv8fQ?si=1PwH9X9sPyPUm9rq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="grid3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gFcl4ReZR-8?si=bah4oUASVoovSZim" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="grid4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TBuLq_NlaKs?si=CHl9_N1Ys1FrTlg1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: 0 auto; margin-top: 30px;border-radius: 30px; margin-bottom: 20px;">More videos ></button>
+
+    <div>
+        <p id="headingtwo">
+            <span class="white-text">Images</span>
+        </p>
+    </div>
+
+    <div class="photos">
+        <div class="photo-container">
+            <div class="images1">
+                <img src="../image_files/photo1.png" alt="image1">
+            </div>
+            <div class="images2">
+                <img src="../image_files/photo2.png" alt="image1">
+            </div>
+            <div class="images3">
+                <img src="../image_files/photo3.png" alt="image1">
+            </div>
+            <div class="images4">
+                <img src="../image_files/photo4.png" alt="image1">
+            </div>
+        </div>
+    </div>
+
+    <button style="display: block; margin: 0 auto; margin-top: 30px;border-radius: 30px; margin-bottom: 20px;">More images ></button>
+
+    
+    <script src="../javascript/theme-toggle.js"></script>
+    <footer>
+        <div class="footer-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-info">
+            <p>Website Visitors: 1000</p>
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
